@@ -1,19 +1,59 @@
 [
     {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+    },
+    {
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "Vite",
+        "icon": "https://img.icons8.com/color/48/000000/vite.png"
+    },
+    {
+        "name": "NextJs",
+        "icon": "https://img.icons8.com/color/48/000000/nextjs.png"
     },
     {
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
     {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/color/48/000000/express-js.png"
+    },
+    {
+        "name": "APIs",
+        "icon": "https://img.icons8.com/ios/50/1A1A1A/api.png"
+    },
+    {
         "name": "Firebase",
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
     },
     {
         "name": "Bootstrap",
@@ -28,48 +68,28 @@
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "name": "C",
+        "icon": "https://img.icons8.com/color/48/000000/c-programming.png"
     },
     {
         "name": "C++",
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     },
     {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
     {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
     },
     {
         "name": "AWS",
         "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
     },
     {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
+        "name": "Vercel",
+        "icon": "https://img.icons8.com/fluency-systems-filled/48/1A1A1A/triangle.png"    
     },
     {
         "name": "Netlify",
@@ -78,5 +98,21 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Jira",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-atlassian-an-australian-enterprise-software-company-that-develops-products-for-software-developers-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "PhonePay",
+        "icon": "https://img.icons8.com/color/48/phone-pe.png"
+    },
+    {
+        "name": "RajorPay",
+        "icon": "https://img.icons8.com/pulsar-gradient/50/pay.png"
     }
+    
 ]
+
+
+

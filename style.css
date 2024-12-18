@@ -362,7 +362,7 @@ header .navbar ul li a:hover {
 .about .row .image img {
   margin: 4rem;
   width: 30rem;
-  height: auto;
+  height: 50rem;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
@@ -1223,3 +1223,18 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  display: inline-block;
+  animation: rotate 5s linear infinite; /* Rotate every 2 seconds */
+}
