@@ -934,6 +934,7 @@ header .navbar ul li a:hover {
 .contact {
   background: #e5ecfb;
   min-height: 60vh;
+  
 }
 .contact .container {
   max-width: 1050px;
@@ -1090,6 +1091,7 @@ form .button-area {
 /* footer section starts */
 .footer {
   min-height: auto;
+  
   padding-top: 0;
   background: rgb(0, 1, 43);
 }
