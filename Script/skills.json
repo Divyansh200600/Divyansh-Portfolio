@@ -1,118 +1,534 @@
 [
+
+
+    
     {
+        
+        "category": "Web Dev",
+        "subCategory": "Frontend Language",
         "name": "HTML5",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Frontend Language",
         "name": "CSS3",
         "icon": "https://img.icons8.com/color/48/000000/css3.png"
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Frontend Language",
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Frontend Language",
         "name": "TypeScript",
         "icon": "https://img.icons8.com/color/48/000000/typescript.png"
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Frontend Language",
+        "name": "Three.Js",
+        "icon": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"
+    },
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+
     },
     {
-        "name": "Vite",
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
+        "name": "ReactVite",
         "icon": "https://img.icons8.com/color/48/000000/vite.png"
+
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
+        "name": "VueJs",
+        "icon": "https://img.icons8.com/?size=256&id=rY6agKizO9eb&format=png"
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
+        "name": "Svelte",
+        "icon": "https://img.icons8.com/?size=48&id=Mm35TzLKahiF&format=png"
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
+        "name": "Angular",
+        "icon": "https://img.icons8.com/?size=256&id=71257&format=png"
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
         "name": "NextJs",
         "icon": "https://img.icons8.com/color/48/000000/nextjs.png"
+
     },
     {
-        "name": "NodeJS",
+        "category": "Web Dev",
+        "subCategory": "Frontend Framework",
+        "name": "NuxtJs",
+        "icon": "https://img.icons8.com/?size=256&id=nvrsJYs7j9Vb&format=png"
+    },
+
+
+
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "CSS Framework",
+        "name": "Tailwind",
+        "icon": "https://img.icons8.com/?size=256&id=4PiNHtUJVbLs&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "CSS Framework",
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "CSS Framework",
+        "name": "SaaS",
+        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "CSS Framework",
+        "name": "Bulma",
+        "icon": "https://img.icons8.com/?size=256&id=1TpB6GVOu4qG&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "CSS Framework",
+        "name": "Materialize",
+        "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/materialize-css-logo-icon.png"
+
+    },
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Backend Language",
+        "name": "NodeJs",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+
     },
     {
-        "name": "ExpressJS",
+        "category": "Web Dev",
+        "subCategory": "Backend Language",
+        "name": "ExpressJs",
         "icon": "https://img.icons8.com/color/48/000000/express-js.png"
+
     },
     {
-        "name": "APIs",
-        "icon": "https://img.icons8.com/ios/50/1A1A1A/api.png"
+        "category": "Web Dev",
+        "subCategory": "Backend Language",
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Backend Language",
+        "name": ".NET Core",
+        "icon": "https://img.icons8.com/?size=256&id=1BC75jFEBED6&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Backend Language",
+        "name": "PHP(Laravel)",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+
+    },
+
+
+
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Databases(SQL)",
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/?size=256&id=38561&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Databases(SQL)",
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Databases(NoSQL)",
+        "name": "MongoDb",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Databases(NoSQL)",
         "name": "Firebase",
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+
+    },
+
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Authentication",
+        "name": "JWT",
+        "icon": "https://img.icons8.com/?size=256&id=rHpveptSuwDz&format=png"
+
     },
     {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "category": "Web Dev",
+        "subCategory": "Authentication",
+        "name": "OAuth",
+        "icon": "https://static-00.iconduck.com/assets.00/oauth-icon-2048x2043-bzteqmtr.png"
+
     },
     {
+        "category": "Web Dev",
+        "subCategory": "Authentication",
+        "name": "Passport.js",
+        "icon": "https://avatars.githubusercontent.com/u/1160530?s=200&v=4"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Authentication",
+        "name": "Firebase Auth",
+        "icon": "data:image/png;base64,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"
+
+    },
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "API Consumption & Handling",
+        "name": "RESTful APIs",
+        "icon": "https://img.icons8.com/?size=256w&id=50196&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "API Consumption & Handling",
+        "name": "GraphQL",
+        "icon": "https://img.icons8.com/?size=256&id=zdI5E8moxhs-&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "API Consumption & Handling",
+        "name": "WebSockets",
+        "icon": "https://static-00.iconduck.com/assets.00/websocket-icon-1024x769-b74mi87d.png"
+
+    },
+
+
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "Vercel",
+        "icon": "https://img.icons8.com/fluency-systems-filled/48/1A1A1A/triangle.png"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "Firebase Host",
+        "icon": "data:image/png;base64,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"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "DigitalOcean",
+        "icon": "https://static-00.iconduck.com/assets.00/digitalocean-icon-512x512-1t8a5xew.png"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+
+    },
+    
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/?size=256&id=39292&format=png"
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Version Control & Deployment",
+        "name": "Docker",
+        "icon": "https://img.icons8.com/?size=256&id=cdYUlRaag9G9&format=png"
+
+    },
+
+
+
+    {
+        "category": "Web Dev",
+        "subCategory": "Task Management & Payment Integration",
+        "name": "JiraAtlassian",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-atlassian-an-australian-enterprise-software-company-that-develops-products-for-software-developers-logo-color-tal-revivo.png"
+
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Task Management & Payment Integration",
+        "name": "PhonePe",
+        "icon": "https://img.icons8.com/color/48/phone-pe.png"
+
+
+    },
+    {
+        "category": "Web Dev",
+        "subCategory": "Task Management & Payment Integration",
+        "name": "RajorPay",
+        "icon": "data:image/png;base64,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"
+
+
+    },
+
+
+
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "Spreadsheet Tools",
+        "name": "Excel",
+        "icon": "https://img.icons8.com/?size=256&id=UECmBSgBOvPT&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "Spreadsheet Tools",
+        "name": "Google Sheets",
+        "icon": "https://img.icons8.com/?size=256&id=qrAVeBIrsjod&format=png"
+    },
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "SQL Database",
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/?size=256&id=38561&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "SQL Database",
         "name": "MySQL",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+        "category": "Data Scientist",
+        "subCategory": "SQL Database",
+        "name": "Oracle",
+        "icon": "https://img.icons8.com/?size=256&id=39913&format=png"
     },
     {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "category": "Data Scientist",
+        "subCategory": "SQL Database",
+        "name": "BigQuery",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVqTh2OMslWVJfu5se3d7DuFgj0AI7Ij8yA&usqp=CAU"
     },
+
     {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+        "category": "Data Scientist",
+        "subCategory": "Data Visualization",
+        "name": "Tableau",
+        "icon": "https://banner2.cleanpng.com/20181112/vco/kisspng-tableau-software-computer-software-business-intell-best-tableau-courses-tutorials-amp-books-2-18-5be9d6e3bb4ec2.2124175015420515557672.jpg"
     },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
-    },
-    {
-        "name": "C",
-        "icon": "https://img.icons8.com/color/48/000000/c-programming.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
-    },
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Vercel",
-        "icon": "https://img.icons8.com/fluency-systems-filled/48/1A1A1A/triangle.png"    
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "Jira",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-atlassian-an-australian-enterprise-software-company-that-develops-products-for-software-developers-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "PhonePay",
-        "icon": "https://img.icons8.com/color/48/phone-pe.png"
-    },
-    {
-        "name": "RajorPay",
-        "icon": "https://img.icons8.com/pulsar-gradient/50/pay.png"
-    }
     
+    {
+        "category": "Data Scientist",
+        "subCategory": "Data Visualization",
+        "name": "PowerBI",
+        "icon": "https://img.icons8.com/?size=256&id=qYfwpsRXEcpc&format=png"
+    },
+    
+    {
+        "category": "Data Scientist",
+        "subCategory": "Data Visualization",
+        "name": "Matplotlib",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1200px-Matplotlib_icon.svg.png"
+    },
+    
+    {
+        "category": "Data Scientist",
+        "subCategory": "Data Visualization",
+        "name": "Seaborn",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn3yRZNprcZIqPaGuf_nyCwZRRGBVUE0Lfl0kr-sO6QpZAq8FpLCtxu5Y&usqp=CAU"
+    },
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "Advanced Python",
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=256&id=xSkewUSqtErH&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "Advanced Python",
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/?size=256&id=aR9CXyMagKIS&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "Advanced Python",
+        "name": "Wrangling",
+        "icon": "https://img.icons8.com/?size=256w&id=0lTulS5AIq64&format=png"
+    },
+
+
+
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "ETL & Data Engineering",
+        "name": "Airflow",
+        "icon": "https://airflow.apache.org/docs/apache-airflow/1.10.15/_images/pin_large.png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "ETL & Data Engineering",
+        "name": "Data DBT",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7_gw7KrRM9waicdbRG9pKcUEX7I49yD3L_g&usqp=CAU"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "ETL & Data Engineering",
+        "name": "Pipelines",
+        "icon": "data:image/jpeg;base64,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"
+    },
+
+
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "Big Data Tools",
+        "name": "Spark",
+        "icon": "https://image.pngaaa.com/478/7261478-middle.png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "Big Data Tools",
+        "name": "Hadoop",
+        "icon": "https://img.icons8.com/?size=256&id=69132&format=png"
+    },
+
+
+
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "Deep Learning ",
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/?size=256&id=n3QRpDA7KZ7P&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "Deep Learning ",
+        "name": "PyTorch",
+        "icon": "https://img.icons8.com/?size=256&id=jH4BpkMnRrU5&format=png"
+    },
+
+
+
+    {
+        "category": "Data Scientist",
+        "subCategory": "MLOps",
+        "name": "Docker",
+        "icon": "https://img.icons8.com/?size=256&id=cdYUlRaag9G9&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "MLOps",
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/?size=256&id=cvzmaEA4kC0o&format=png"
+    },
+    {
+        "category": "Data Scientist",
+        "subCategory": "MLOps",
+        "name": "CI/CD",
+        "icon": "https://www.blackduck.com/glossary/what-is-cicd/_jcr_content/root/synopsyscontainer/column_1946395452_co/colRight/image_copy.coreimg.svg/1727199377195/cicd.svg"
+    }
+   
+   
+
+
+
+    
+
+   
+
+
+
+   
+  
 ]
-
-
-

@@ -79,29 +79,80 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("Script/skills.json")
-        :
-        response = await fetch("./Script/projects.json")
+async function fetchData() {
+    const response = await fetch("Script/skills.json");
     const data = await response.json();
     return data;
 }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
+function filterSubCategories(category) {
+    fetchData().then(data => {
+        const subCategories = Array.from(new Set(data.filter(skill => skill.category === category).map(skill => skill.subCategory)));
+        showSubCategoriesAndSkills(category, subCategories, data);
     });
+}
+
+window.onload = function () {
+    showSubCategoriesAndSkills("Web Dev", ["Frontend", "Backend", "Full Stack"], allSkills);
+};
+function showSubCategoriesAndSkills(category, subCategories, allSkills) {
+    const skillsContainer = document.getElementById("skillsContainer");
+
+    if (!skillsContainer) {
+        console.error("Error: skillsContainer not found!");
+        return;
+    }
+
+    let skillHTML = "";
+
+    subCategories.forEach(subCategory => {
+        // Subcategory Title (appears as a separate row)
+        skillHTML += `
+            <div class="subcategory-wrapper">
+                <h3 class="subcategory-title">${subCategory} <span class="arrow">→</span></h3>
+                <div class="subcategory">`;
+
+        // Filter skills by category and subcategory
+        const skills = allSkills.filter(skill => skill.category === category && skill.subCategory === subCategory);
+
+        if (skills.length === 0) {
+            skillHTML += `<p class="no-skills">No skills found.</p>`;
+        } else {
+            skills.forEach(skill => {
+                skillHTML += `
+                    <div class="bar">
+                        <div class="info">
+                            <img src="${skill.icon}" alt="${skill.name}">
+                            <span>${skill.name}</span>
+                        </div>
+                    </div>`;
+            });
+        }
+
+        skillHTML += `</div></div>`; // Close subcategory wrapper
+    });
+
     skillsContainer.innerHTML = skillHTML;
+}
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    fetchData().then(data => {
+        generateCategoryButtons(data);
+        filterSubCategories('Web Dev'); // Default load for Web Dev
+    });
+});
+
+function generateCategoryButtons(data) {
+    const categories = Array.from(new Set(data.map(skill => skill.category)));
+    const categoriesContainer = document.getElementById("categoriesContainer");
+
+    categoriesContainer.innerHTML = categories.map(category => {
+        return `<button onclick="filterSubCategories('${category}')">${category}</button>`;
+    }).join('');
 }
 
 function showProjects(projects) {
